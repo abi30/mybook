@@ -1,0 +1,103 @@
+#blue_bar {
+    height:50px;
+    background-color:#4267B2;
+    color : #d9dfeb;
+}
+
+#search_box {
+    width:400px;
+    height:20px;
+    border-radius:5px;
+    border :none;
+    padding : 4px;
+    font-size:14px;
+    background-image:url(search.png);
+    background-repeat:no-repeat;
+    background-position:right;
+
+ 
+}
+
+#profile_pic{
+   
+    background-color:none;
+    width:150px;
+    border-radius:50%;
+    border:solid 2px white;
+
+}
+
+#menu_buttons{
+    width:80px;
+    display:inline-block;
+    margin:2px;
+   }
+#friends_img{
+    width:75px;
+    float:left;
+    margin: 8px;
+    border-radius:4px;
+ 
+    }
+#friends_bar{
+    margin-top:20px;
+    min-height:400px;
+    padding:8px;
+    text-align:center;
+    font-weight:bold;
+    color:#405d9b;
+    }
+
+#friends{
+
+    clear:both;
+    font-size:12px;
+    font-weight:bold;
+    color :#405d9b;
+
+
+    }
+textarea{
+    width:100%;
+    border :none;
+    font-family:tahoma;
+    font-size:14px;
+    padding:px;
+    height:60px;
+    }
+#post_button{
+    float:right;
+    background-color:#405d9b;
+    border:none;
+    color:white;
+    font-size:14px;
+    margin-top:5px;
+    padding:3px;
+    border-radius:2px;
+    width:50px;
+    min-width:50px;
+    cursor:pointer;
+    }
+
+#post_bar{
+
+    margin-top:20px;
+    background-color:white;
+    padding:10px;
+
+
+    }
+#post{
+    padding:4px;
+    font-size:13px;
+    display:flex;
+    }
+
+.tab.row{
+    padding:20px;
+    margin: 10px;
+}
+.card{
+    margin-left:150px;
+    margin-top :20px;
+}
